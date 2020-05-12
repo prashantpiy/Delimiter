@@ -17,5 +17,5 @@ app.post('/get-file',upload_middleware.single(form_element_name), (req, res) => 
 
 
 app.listen(4000, () => {
-    console.log('Example app listening on port 4000!')
+    console.log('App listening on port 4000!')
 });
